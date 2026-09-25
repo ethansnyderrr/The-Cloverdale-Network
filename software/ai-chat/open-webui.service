@@ -1,0 +1,13 @@
+# Template - TODO: replace with your actual unit file
+[Unit]
+Description=Open WebUI
+After=network.target ollama.service
+
+[Service]
+Type=simple
+User=TODO
+ExecStart=TODO
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

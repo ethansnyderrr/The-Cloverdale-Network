@@ -1,0 +1,10 @@
+# MCXboxBroadcast - template
+# TODO: replace with your actual config (scrub any account tokens first)
+services:
+  mcxbox:
+    image: ghcr.io/mcxboxbroadcast/standalone:latest
+    container_name: mcxbox
+    network_mode: host
+    restart: unless-stopped
+    volumes:
+      - ./config:/opt/app/config  # TODO: verify path
