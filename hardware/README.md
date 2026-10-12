@@ -2,19 +2,19 @@
 
 ## Bill of Materials
 
-> Used-market prices vary. eBay links point to model searches rather than specific listings since listings expire.
+> Used-market prices vary. eBay and Amazon links point to model searches rather than specific listings since listings expire.
 
 | Component | Model | Specs / Notes | Paid | Where to Buy |
 |---|---|---|---|---|
-| Server | HP EliteDesk 800 G3 | Intel i5, 32GB RAM, 256GB SATA SSD | 70$ | [eBay search](https://www.ebay.com/sch/i.html?_nkw=hp+elitedesk+800+g3) |
-| Boot SSD | Crucial SATA SSD | 256GB, tool-less caddy | $TODO | TOD |
-| External storage | CENMATE 2-bay USB 3.0 DAS | No RAID, 2x ~4TB drives | $TODO | TODO |
-| Rack | GeeekPi 10" rack mount | Houses the full build | $TODO | TODO |
-| Display | GeeekPi 10" rack-mount LCD | HDMI + USB, shows status dashboard | $TODO | TODO |
-| Switch | SW8-25G-MGV2 | 8-port managed switch | 70$ | TODO |
-| Planned firewall | Sophos SG 105w (used) | To run OPNsense | — | [eBay search](https://www.ebay.com/sch/i.html?_nkw=sophos+sg+105w) |
+| Server | HP EliteDesk 800 G3 | Intel i5, 32GB RAM, 256GB SATA SSD | $70 | [eBay search](https://www.ebay.com/sch/i.html?_nkw=hp+elitedesk+800+g3) |
+| Boot SSD | Crucial SATA SSD | 256GB, tool-less caddy | $TODO | TODO |
+| External storage | CENMATE 2-bay USB 3.0 DAS | No RAID, 2x ~4TB drives | ~$60 | [Amazon search](https://www.amazon.com/s?k=cenmate+2+bay+usb+3.0+hard+drive+enclosure) |
+| Rack | GeeekPi 10" rack mount | Houses the full build | $120 | [Amazon search](https://www.amazon.com/s?k=geeekpi+10+inch+rack) |
+| Display | GeeekPi 10" rack-mount LCD | HDMI + USB touchscreen, shows status dashboard | $100 | [Amazon search](https://www.amazon.com/s?k=geeekpi+10+inch+rack+mount+lcd+touch+screen) |
+| Switch | SW8-25G-MGV2 | 8-port managed switch | $70 | [Amazon search](https://www.amazon.com/s?k=SW8-25G-MGV2) |
+| Firewall | Sophos SG 105w (used) | To run OPNsense (not yet deployed) | $40 | [Amazon search](https://www.amazon.com/s?k=sophos+sg+105) |
 
-**Total spent:** $TODO
+**Total spent:** ~$460 (excluding boot SSD)
 
 ## Component Notes
 
