@@ -6,12 +6,12 @@
 
 | Component | Model | Specs / Notes | Paid | Where to Buy |
 |---|---|---|---|---|
-| Server | HP EliteDesk 800 G3 | Intel i5, 32GB RAM, 256GB SATA SSD | $TODO | [eBay search](https://www.ebay.com/sch/i.html?_nkw=hp+elitedesk+800+g3) |
-| Boot SSD | Crucial SATA SSD | 256GB, tool-less caddy | $TODO | TODO |
+| Server | HP EliteDesk 800 G3 | Intel i5, 32GB RAM, 256GB SATA SSD | 70$ | [eBay search](https://www.ebay.com/sch/i.html?_nkw=hp+elitedesk+800+g3) |
+| Boot SSD | Crucial SATA SSD | 256GB, tool-less caddy | $TODO | TOD |
 | External storage | CENMATE 2-bay USB 3.0 DAS | No RAID, 2x ~4TB drives | $TODO | TODO |
 | Rack | GeeekPi 10" rack mount | Houses the full build | $TODO | TODO |
 | Display | GeeekPi 10" rack-mount LCD | HDMI + USB, shows status dashboard | $TODO | TODO |
-| Switch | SW8-25G-MGV2 | 8-port managed switch | $TODO | TODO |
+| Switch | SW8-25G-MGV2 | 8-port managed switch | 70$ | TODO |
 | Planned firewall | Sophos SG 105w (used) | To run OPNsense | — | [eBay search](https://www.ebay.com/sch/i.html?_nkw=sophos+sg+105w) |
 
 **Total spent:** $TODO
