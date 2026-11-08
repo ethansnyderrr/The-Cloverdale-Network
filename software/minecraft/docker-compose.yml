@@ -1,10 +1,10 @@
-# MCXboxBroadcast - template
-# TODO: replace with your actual config (scrub any account tokens first)
+# MCXboxBroadcast on LXC 104 (mc-broadcast) - reconstructed.
+# Do not commit the ./config folder: it holds the Xbox account auth cache.
 services:
   mcxbox:
     image: ghcr.io/mcxboxbroadcast/standalone:latest
     container_name: mcxbox
-    network_mode: host
+    network_mode: host        # needed to reach Crafty (CT 102) over the LAN
     restart: unless-stopped
     volumes:
-      - ./config:/opt/app/config  # TODO: verify path
+      - ./config:/opt/app/config

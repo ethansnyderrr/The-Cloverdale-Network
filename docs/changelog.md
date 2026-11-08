@@ -17,3 +17,10 @@ TODO: add dates.
 - Added CENMATE DAS for media storage
 - Began Tailscale setup
 - Created this repository
+- Second DAS drive (WD RE4) failed; return in progress
+- Created Windows 11 test VM (VM 100)
+- Moved the sports scoreboard into its own container (CT 105), displayed on a Fire TV Stick
+- Deployed the OSP paper-trading bot and team dashboard timers (CT 106)
+- Deployed Layer One for the MIS 430 project (CT 107)
+- Bought a used Sophos SG 105 Rev. 2 on eBay and installed OPNsense
+- Set non-essential guests to stay stopped until needed

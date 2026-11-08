@@ -1,0 +1,12 @@
+[Unit]
+Description=Scoreboard TV display
+After=network-online.target
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/scoreboard/scoreboard-server.py
+WorkingDirectory=/opt/scoreboard
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

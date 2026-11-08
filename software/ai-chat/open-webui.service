@@ -1,12 +1,15 @@
-# Template - TODO: replace with your actual unit file
+# Reconstructed - check against /etc/systemd/system/open-webui.service on the container
 [Unit]
 Description=Open WebUI
-After=network.target ollama.service
+After=network-online.target ollama.service
+Wants=network-online.target
 
 [Service]
 Type=simple
-User=TODO
-ExecStart=TODO
+User=root
+Environment=DATA_DIR=/root/.open-webui
+Environment=OLLAMA_BASE_URL=http://127.0.0.1:11434
+ExecStart=/root/.local/bin/uvx --python 3.11 open-webui@latest serve --host 0.0.0.0 --port 8080
 Restart=always
 
 [Install]
