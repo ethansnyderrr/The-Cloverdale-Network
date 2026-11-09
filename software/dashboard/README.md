@@ -1,10 +1,14 @@
 # Rack Status Dashboard
 
-Runs on the 10" rack LCD connected to the EliteDesk's HDMI.
+Runs on the GeeekPi 10" rack-mount LCD, connected directly to the EliteDesk's HDMI output.
+
+## Display
+- **Screen:** GeeekPi 10" rack-mount LCD (HDMI video + USB touch), mounted in the rack itself
+- **Connection:** HDMI straight from the EliteDesk, so no extra computer is needed to drive it
 
 ## Tiles
 - Status of each Proxmox guest
 - Switch online/offline
 
-## How it works
-TODO: what it's built with, how it polls status, screenshot.
+## Why
+A glance at the rack shows whether every service and the switch are up, without opening the Proxmox web UI.

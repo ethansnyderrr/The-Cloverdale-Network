@@ -30,7 +30,7 @@ systemctl daemon-reload
 systemctl enable --now scoreboard
 ```
 
-The service file is the real one from the container. TODO: add `scoreboard-server.py` and `scoreboard.html` once they're checked for keys.
+The service file is the real one from the container. The app code itself isn't published yet.
 
 ## Running it
 

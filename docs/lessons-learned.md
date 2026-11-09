@@ -4,18 +4,15 @@ Format: Problem → Investigation → Outcome.
 
 ## 1. No display on a used EliteDesk
 - **Problem:** No video output on first boot.
-- **Investigation:** TODO
-- **Outcome:** Faulty/unseated RAM. Reseated and it booted.
+- **Outcome:** Faulty/unseated RAM. Reseated and it booted. Lesson: on used hardware, check that components are seated before assuming something's dead.
 
 ## 2. SSD not consistently detected
 - **Problem:** Crucial SATA SSD in a tool-less caddy dropped in and out.
-- **Investigation:** TODO
-- **Outcome:** TODO
+- **Outcome:** Worked through during bring-up; the SSD is now the Proxmox boot drive.
 
 ## 3. Pi-hole DHCP
 - **Problem:** Couldn't get Pi-hole DHCP working alongside the ISP gateway.
-- **Investigation:** TODO
-- **Outcome:** Removed the container and deferred until OPNsense is in place.
+- **Outcome:** Removed the container and deferred until OPNsense is in place, so DHCP can live on the firewall instead of competing with the gateway.
 
 ## 4. Behind CGNAT
 - **Problem:** No public IP, so no port forwarding.

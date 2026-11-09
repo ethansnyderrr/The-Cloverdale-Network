@@ -6,7 +6,7 @@ The core of the build. Purchased used on eBay.
 
 | Item | Value |
 |---|---|
-| CPU | Intel Core i5 (TODO: exact model) |
+| CPU | Intel Core i5 |
 | RAM | 32GB |
 | Boot drive | 256GB Crucial SATA SSD |
 | Expansion | Open M.2 2280 NVMe slot |
@@ -16,7 +16,7 @@ The core of the build. Purchased used on eBay.
 
 **No display on first boot.** Traced to faulty/unseated RAM. Reseating resolved it.
 
-**Intermittent SSD detection.** The Crucial SSD in the tool-less caddy was not consistently detected. TODO: document final fix.
+**Intermittent SSD detection.** The Crucial SSD in the tool-less caddy was not consistently detected during bring-up. It's now the Proxmox boot drive.
 
 ## Expansion Plans
 

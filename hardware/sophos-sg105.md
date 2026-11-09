@@ -4,10 +4,21 @@
 **Runs:** OPNsense (replacing Sophos's own firmware)
 **Status:** OPNsense installed and boots cleanly to the login prompt. Not in line yet.
 
+## Hardware
+
+| Item | Spec |
+|---|---|
+| CPU | Intel Atom E3826, dual-core 1.46GHz, with AES-NI (hardware encryption for VPN traffic) |
+| RAM | 2GB DDR3L SODIMM (upgradeable) |
+| Storage | 64GB SATA SSD |
+| Network | 4x gigabit Ethernet (Intel i211) |
+| Other | VGA console, USB 2.0, fanless |
+
 ## Why this box
 
 - A small, fanless, purpose-built firewall appliance with multiple gigabit ports, cheap on the used market.
 - Sophos's firmware ties you to their licensing; OPNsense is free, open source, and updated often.
+- Its CPU supports AES-NI, which OPNsense uses to speed up VPN encryption.
 - Considered a second HP EliteDesk Mini with a USB Ethernet adapter instead, but USB NICs are a weak point for a firewall.
 
 ## Why OPNsense over pfSense
@@ -23,9 +34,10 @@
 | eth1 | WAN | AT&T Internet Air gateway |
 | eth0 | LAN | 8-port managed switch |
 
-## Install notes
+## Known quirks of this model
 
-TODO: how the installer was booted (USB image, console vs. VGA), any SG 105 Rev. 2 quirks hit during install.
+- Rev. 1 and Rev. 2 units ship with a 32-bit (IA32) BIOS even though the CPU is 64-bit, which is why some installers have trouble booting on them.
+- Firewall OS installers on this hardware are typically done from a USB stick, with the VGA port or a serial console used to watch the install.
 
 ## What's blocking deployment
 

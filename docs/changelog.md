@@ -1,7 +1,5 @@
 # Changelog
 
-TODO: add dates.
-
 - Purchased used HP EliteDesk 800 G3
 - Fixed RAM seating issue, installed Proxmox VE 9.2
 - Configured no-subscription repo, fixed network config
